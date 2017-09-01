@@ -1,26 +1,6 @@
 package LTC;
 
 public class Wildcard_Matching_LeetCode_Java {
-	
-	public static void main(String[] args) {
-		Wildcard_Matching_LeetCode_Java object = new Wildcard_Matching_LeetCode_Java();
-        object.run();
-
-    }
-	
-	void run() {
-        //  isMatch(String s, String p)
-
-        String s = "aaaa";
-        String p = "***a";
-
-
-
-        System.out.println(isMatch(s,p));
-    }
-
- 
-
 
     public boolean isMatch(String s, String p) {
 
@@ -64,6 +44,23 @@ public class Wildcard_Matching_LeetCode_Java {
         return result[result.length-1][result[0].length-1];
     }
 
+	public static void main(String[] args) {
+		Wildcard_Matching_LeetCode_Java object = new Wildcard_Matching_LeetCode_Java();
+        object.run();
+
+    }
+	
+	
+	void run() {
+        //  isMatch(String s, String p)
+
+        String s = "aaaa";
+        String p = "***a";
+
+
+
+        System.out.println(isMatch(s,p));
+    }
 }
 
 
